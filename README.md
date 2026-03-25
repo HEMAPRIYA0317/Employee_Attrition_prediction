@@ -15,8 +15,8 @@ This helps organizations identify attrition risks and take preventive actions.
 6. Prediction
 
 
-📁 Project Structure
-employee_attrition/
+## Project structure
+employee_attrition
 │
 ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
 ├── attrition_model.pkl
@@ -25,7 +25,7 @@ employee_attrition/
 └── README.md
 
 
-📊 Dataset
+## Dataset
 Source: IBM HR Analytics Dataset
 Contains employee-related information such as:
 Age
@@ -36,7 +36,7 @@ Job Satisfaction
 Target variable: Attrition (Yes / No)
 
 
-🔧 Data Preprocessing
+## Data Preprocessing
 Converted target variable:
 Yes → 1
 No → 0
@@ -51,7 +51,7 @@ Split dataset into training (80%) and testing (20%)
 
 
 
-🤖 Model Used
+## Model Used
 Logistic Regression
 Simple and interpretable classification model
 Suitable for binary classification problems
@@ -60,7 +60,7 @@ Accuracy: ~80% (may vary slightly)
 
 
 
-📈 Model Evaluation
+## Model Evaluation
 Accuracy Score
 Confusion Matrix
 Classification Report:
@@ -69,13 +69,13 @@ Recall
 F1-score
 
 
-🔍 Key Insights
+## Key Insights
 Salary, job satisfaction, and years at company influence attrition
 Logistic Regression provides a solid baseline model
 Balanced dataset improves prediction reliability
 
 
-🚀 How to Run
+## How to Run
 Clone the repository
 Install dependencies:
 pip install pandas numpy scikit-learn joblib
@@ -87,7 +87,7 @@ Run prediction script with new employee data
 
 
 
-🧪 Example Prediction
+## Example Prediction
 prediction = model.predict(sample)
 
 if prediction[0] == 1:
@@ -96,7 +96,7 @@ else:
     print("✅ Employee likely to stay")
 
     
-💼 Project Highlights
+## Project Highlights
 End-to-end Machine Learning pipeline
 Real-world HR analytics use case
 Model training, evaluation, and deployment-ready files
@@ -104,11 +104,12 @@ Beginner-friendly project for interviews
 
 
 
-📌 Future Improvements
+## Future Improvements
 Use advanced models (Random Forest, XGBoost)
 Perform hyperparameter tuning
 Feature engineering (e.g., income-to-experience ratio)
 Deploy using Streamlit or Flask
-👨‍💻 Author
+
+## Author
 
 Employee Attrition Prediction ML Project by  Hema Priya S.
