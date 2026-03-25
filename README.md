@@ -24,7 +24,14 @@ employee_attrition
 ├── attrition_prediction.ipynb
 └── README.md
 
-
+## Dataset
+The dataset contains employee information such as:
+- Age
+- Job Role
+- Monthly Income
+- Years at Company
+- Job Satisfaction
+- Attrition (Target variable)
 ## Dataset
 Source: IBM HR Analytics Dataset
 Contains employee-related information such as:
