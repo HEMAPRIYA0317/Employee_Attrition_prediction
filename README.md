@@ -42,7 +42,7 @@ employee_attrition
 - No → 0
 2. Removed irrelevant columns:
 - EmployeeNumber
--EmployeeCount
+- EmployeeCount
 - Over18
 - StandardHours
 - Encoded categorical variables using Label Encoding
