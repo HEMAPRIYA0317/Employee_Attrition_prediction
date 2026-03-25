@@ -24,73 +24,66 @@ employee_attrition
 ├── attrition_prediction.ipynb
 └── README.md
 
+
 ## Dataset
-The dataset contains employee information such as:
+1. Source: IBM HR Analytics Dataset
+2. Contains employee-related information such as:
 - Age
 - Job Role
 - Monthly Income
-- Years at Company
+- Work Experience
 - Job Satisfaction
-- Attrition (Target variable)
-## Dataset
-Source: IBM HR Analytics Dataset
-Contains employee-related information such as:
-Age
-Job Role
-Monthly Income
-Work Experience
-Job Satisfaction
-Target variable: Attrition (Yes / No)
+3. Target variable: Attrition (Yes / No)
 
 
 ## Data Preprocessing
-Converted target variable:
-Yes → 1
-No → 0
-Removed irrelevant columns:
-EmployeeNumber
-EmployeeCount
-Over18
-StandardHours
-Encoded categorical variables using Label Encoding
-Standardized numerical features using StandardScaler
-Split dataset into training (80%) and testing (20%)
+1. Converted target variable:
+- Yes → 1
+- No → 0
+2. Removed irrelevant columns:
+- EmployeeNumber
+-EmployeeCount
+- Over18
+- StandardHours
+- Encoded categorical variables using Label Encoding
+- Standardized numerical features using StandardScaler
+- Split dataset into training (80%) and testing (20%)
 
 
 
 ## Model Used
-Logistic Regression
-Simple and interpretable classification model
-Suitable for binary classification problems
+- Logistic Regression
+- Simple and interpretable classification model
+- Suitable for binary classification problems
 
-Accuracy: ~80% (may vary slightly)
+## Accuracy: ~80% (may vary slightly)
 
 
 
 ## Model Evaluation
-Accuracy Score
-Confusion Matrix
-Classification Report:
-Precision
-Recall
-F1-score
+- Accuracy Score
+- Confusion Matrix
+- Classification Report:
+- Precision
+- Recall
+- F1-score
 
 
 ## Key Insights
-Salary, job satisfaction, and years at company influence attrition
-Logistic Regression provides a solid baseline model
-Balanced dataset improves prediction reliability
+- Salary, job satisfaction, and years at company influence attrition
+- Logistic Regression provides a solid baseline model
+- Balanced dataset improves prediction reliability
 
 
 ## How to Run
-Clone the repository
-Install dependencies:
-pip install pandas numpy scikit-learn joblib
-Run the notebook or script
-Train model → Saved as:
-attrition_model.pkl
-attrition_scaler.pkl
-Run prediction script with new employee data
+- Clone the repository
+- Install dependencies:
+- pip install pandas numpy scikit-learn joblib
+- Run the notebook or script
+- Train model → Saved as:
+- attrition_model.pkl
+- attrition_scaler.pkl
+- Run prediction script with new employee data
 
 
 
@@ -104,18 +97,18 @@ else:
 
     
 ## Project Highlights
-End-to-end Machine Learning pipeline
-Real-world HR analytics use case
-Model training, evaluation, and deployment-ready files
-Beginner-friendly project for interviews
+- End-to-end Machine Learning pipeline
+- Real-world HR analytics use case
+- Model training, evaluation, and deployment-ready files
+- Beginner-friendly project for interviews
 
 
 
 ## Future Improvements
-Use advanced models (Random Forest, XGBoost)
-Perform hyperparameter tuning
-Feature engineering (e.g., income-to-experience ratio)
-Deploy using Streamlit or Flask
+- Use advanced models (Random Forest, XGBoost)
+- Perform hyperparameter tuning
+- Feature engineering (e.g., income-to-experience ratio)
+- Deploy using Streamlit or Flask
 
 ## Author
 
